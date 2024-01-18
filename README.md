@@ -22,3 +22,10 @@ Node.js에서는 [Async hooks](https://nodejs.org/docs/latest-v21.x/api/async_co
 apm이 어떻게 koa를 어떻게 가로채서 context를 관리하는지 모르겠다. [코드](https://github.com/elastic/apm-agent-nodejs/blob/main/lib/instrumentation/modules/koa-router.js)
 
 그래서 미들웨어에서 `tracer`를 직접 호출하여 context를 관리하도록 구현하였다.
+
+### 참고
+- https://if1live.github.io/posts/express-attach-console-log-to-response/
+- https://kyungyeon.dev/posts/43
+- https://www.npmjs.com/package/elastic-apm-node
+- https://nodejs.org/docs/latest-v21.x/api/async_context.
+- html#class-asynclocalstorage
